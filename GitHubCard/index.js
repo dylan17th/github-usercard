@@ -83,7 +83,8 @@ infoDiv.appendChild(location)
 infoDiv.appendChild(profile)
 infoDiv.appendChild(followers)
 infoDiv.appendChild(following)
-profile.appendChild(link);
+infoDiv.appendChild(bio)
+infoDiv.appendChild(link);
 
 //assigned text content for all the variables
 image.src = obj.avatar_url;
